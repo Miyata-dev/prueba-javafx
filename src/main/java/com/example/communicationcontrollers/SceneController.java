@@ -21,4 +21,13 @@ public class SceneController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void goToMainTab(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+    }
 }
