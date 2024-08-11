@@ -18,6 +18,8 @@ public class HelloApplication extends Application {
     }
     public void hola(){
         System.out.println("Hola");
+        //otra prueba mas
+        //bla bla bla
         //pues no se como hacerlo
     }
     public static void main(String[] args) {
